@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Exeter Orientation</title>
+        <link rel="stylesheet" type="text/css" href="CSS/SignUpPagestyle.css">
+        <link rel="stylesheet" type="text/css" href="CSS/HomePageStyle.css">
+		<script type="text/javascript" src="JS/TutorDropdown.js"></script>
+    </head>
+
+    <body>
+        <div>
+            <img class="logo" src="img/ExeterOrientation.PNG" alt="Exeter Orientation Logo" >
+        </div>
+
+		<div class="signup">
+			<p style="font-size: 30pt">BEGIN YOUR START TO UNIVERSITY</p>
+            <form>
+				<input type = "text" id = "firstname" placeholder="First Name">                        
+				<br /><br />
+				<input type = "text" id = "surname" placeholder="Surname">
+				<br /><br />
+				<input type = "text" id = "email" placeholder="Email">
+				<br /><br />
+				<input type = "text" id = "username" placeholder="Username">
+				<br><br>
+				<input type = "password" id = "password" placeholder="Password">
+				<br /><br />
+            </form>
+			<div class="tutormenu">
+				<button onclick="showTutors()" class="dropbtn">Tutor</button>
+				<div id="tutornames" class="tutors">
+					<a href="#">Anna</a>
+					<a href="#">Mike</a>
+					<a href="#">John</a>
+				</div>
+			</div>	
+        </div>
+
+		<div class="left-button">
+            <form action="HomePage.html">
+                <input type="image" src="img/back.png" alt="back">
+            </form>
+        </div>
+
+        <div class="right-button">
+            <form action="MainPage.html">
+                <input type="image" src="img/SignUp.png" alt="signup">
+            </form>
+        </div>
+    </body> 
+</html> 
